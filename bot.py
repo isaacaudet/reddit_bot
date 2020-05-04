@@ -6,8 +6,8 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 from collections import defaultdict
 
-reddit = praw.Reddit(client_id='lFJMpcqjHFSn-g', client_secret='Rlm0bZ1wf7smLFAzJJB5uguTqBk',
-                     user_agent='Reddit Scrape')
+reddit = praw.Reddit(client_id='', client_secret='',
+                     user_agent='')
 
 
 # Uses fuzzywuzzy to get match ratio between comment strings and index k in the dictionary
